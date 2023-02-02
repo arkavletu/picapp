@@ -54,6 +54,7 @@ class PicAdapter (
 
         fun bind(hits:Hits) {
             this.hits = hits
+            Log.d(TAG, "bind: ${hits.id}")
             with(binding){
 
             }
